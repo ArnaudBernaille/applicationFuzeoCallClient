@@ -1,0 +1,16 @@
+<h1>Application Fuzeo</h1>>
+
+<a onclick="sendHttpRequest()">Mettre à jour le rapport</a>
+
+<script>
+function sendHttpRequest(){
+    const Http = new XMLHttpRequest();
+    const url='https://jsonplaceholder.typicode.com/posts';
+    Http.open("GET", url);
+    Http.send();
+
+    Http.onreadystatechange = (e) => {
+    console.log(Http.responseText)
+    }
+}
+</script>

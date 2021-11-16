@@ -1,0 +1,14 @@
+{
+  "name": "nodejs_webappappelservice",
+  "version": "1.0.0",
+  "description": "Une petit app pour pemettre au client d'envoyer des requete",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arnaud Bernaille",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
